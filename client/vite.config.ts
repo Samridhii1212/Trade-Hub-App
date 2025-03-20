@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: Number(process.env.PORT) || 5173, // Use the Render-provided PORT or fallback to 5173
     host: true, // Allow access from the network,
-    allowedHosts: ['trade-hub-app.onrender.com'], // Add the Render host
+    allowedHosts: ['https://trade-hub-app-frontend.onrender.com'], // Add the Render host
 
   },
 });
