@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "start": "cross-env PORT=5173 vite",
     "lint": "eslint .",
     "preview": "vite preview",
     "build:css": "postcss src/index.css -o src/tailwind.css"

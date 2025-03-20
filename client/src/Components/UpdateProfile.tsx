@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import * as React from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 import { useQuery, useMutation } from "@tanstack/react-query";
