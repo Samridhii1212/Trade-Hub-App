@@ -1,5 +1,5 @@
 import * as React from "react";
-import useReverseGeocoding from "../Hooks/useReverseGeocoding";
+import useReverseGeocoding from "../Hooks/useReverseGeoCoding";
 
 interface Product {
     id: string;
